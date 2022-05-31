@@ -1,0 +1,653 @@
+@media only screen and (min-width: 1601px){
+    .home-banner{
+        background-size: 112%;
+    }
+    .inner-page-title .title-image img{
+        top: 8%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1500px){
+    .container{
+        max-width: 1400px;
+    }
+}
+
+
+@media only screen and (max-width: 1600px){
+    .product-page{
+            padding-top: 200px;
+    }
+    {
+        margin: 25px 0 30px;
+        padding: 20px 50px;
+        font-size: 18px;
+    }
+    .company-name{
+        font-size: 26px;
+    }
+    .about-page .text p {
+    font-size: 21px;
+    margin-top: 25px;
+    }
+    
+    .product-page::before,
+    .inner-page-title::before{
+        height: 250px;
+    }
+    .home-banner .text h1{
+        font-size: 62px;
+    }
+    .home-banner .text p{
+        font-size: 20px;
+    }
+    .home-banner .text a{
+        font-size: 18px;
+        margin-top: 40px;
+        padding: 18px 34px;
+    }
+
+    .box-layout .text ul li{
+        font-size: 16px;
+    }
+    .box-layout .text h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    footer .book h2{
+        font-size: 40px;
+    }
+    footer .mid-text p {
+        font-size: 16px;
+    }
+    .home-banner {
+        height: 990px;
+        
+    }
+    .home-sec1{
+        padding-top: 0;
+    }
+    .box-layout .text p{
+        font-size: 18px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 20px;
+    }
+    header .navbar-expand-lg .navbar-nav {
+        column-gap: 25px;
+    }
+    .contact-page form input{
+        height: 70px;
+    }
+    .contact-page form input, .contact-page form textarea{
+        font-size: 19px;
+    }
+    footer .mid-text img {
+        max-width: 75%;
+    }
+    footer .payroc .img-box img {
+        max-width: 40%;
+    }
+    header .collapse.navbar-collapse {
+        padding-right: 70px;
+    }
+    .home-sec1{
+        background-size: 50px;
+    }
+    image {
+        background-size: 60px;
+    }
+    .box-layout {
+    padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    .product-page .product-box .text {
+    padding: 60px 60px 40px;
+    }
+    .product-page .product-box .info-links .download{
+            padding: 16px 30px; 
+            font-size: 18px;
+    }
+    .product-page .product-box .text h4{
+            font-size: 28px;
+            width: 100%;
+    }
+    .product-page .product-box .img-box h3{
+        margin-top: -110px;
+            width: 100%;
+    }
+    .product-page .heading h1{
+        margin-bottom:0;    
+    }
+    .box-layout {
+        padding-bottom: 0;
+    }
+    .box-layout .img-box img{
+        border-radius: 180px;   
+    }
+}
+
+
+@media only screen and (max-width: 1400px){
+    .home-banner {
+        height: 800px;
+        background-size: 120%;
+    }
+    
+}
+/* @media only screen and (min-width: 1300px){
+    
+} */
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .product-page .product-box .img-box h3{
+        font-size:36px;
+    }
+    .product-page .product-box .text h4 {
+    font-size: 26px;
+    }
+    .home-banner .text h1{
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .home-banner .text a {
+        margin-top: 30px;
+        padding: 16px 24px;
+    }
+    .box-layout .img-box img{
+        border-radius: 160px;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .home-banner .text p br{
+        display: none;
+    }
+    .box-layout .text ul li {
+        font-size: 15px;
+    }
+    .box-layout .text h2 {
+        font-size: 40px;
+    }
+    footer .book h2{
+        font-size: 40px;
+        /* width: 75%; */
+        line-height: 2.7;
+        margin-top: -50px;
+        margin-bottom: 120px;
+    }
+    footer .mid-text p {
+        font-size: 14px;
+        /* margin-top: 20px; */
+    }
+    /* footer{
+        margin-top: 130px;
+    } */
+    .box-layout .text p{
+        font-size: 16px;
+    }
+    header .navbar-expand-lg .navbar-nav {
+        column-gap: 20px;
+    }
+    .box-layout {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .home-banner .text h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .home-banner {
+        height: 740px;
+        background-size: 125%;
+    }
+    .home-sec1{
+        background-size: 50px;
+    }
+    .side-image{
+        background-size: 60px;
+    }
+    .box-layout .text.p-left{
+        padding-left: 40px;
+    }
+
+    .box-layout .text {
+        padding-right: 25px;
+    }
+    footer .btm-text {
+        /* margin-top: 60px; */
+    }
+    footer .book h2{
+        margin-bottom: 90px;
+    }
+        
+}
+
+@media only screen and (max-width: 1199px){
+    .home-banner {
+        height: 640px;
+    }
+    .box-layout .text.p-left{
+        padding-left: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+    .box-layout .text{
+        margin-bottom: 60px;
+        padding-right: 0;
+    }
+    .box-layout .img-box img {
+        border-radius: 140px;
+        max-width: 100%;
+    }
+    footer .book h2{  
+        width: 100%;
+        font-size: 35px;
+        margin-bottom: 60px;
+    }
+    footer .social{
+        justify-content: center;
+    }
+    footer .mid-text {
+        /* margin: 40px 0; */
+    }
+    footer .payroc .img-box {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer .mid-text p {
+        font-size: 16px;
+    }
+
+    .home-banner {
+       background-size: 100% 100%;
+        background-position: left 90%;
+            height: 650px;
+    }
+    .home-banner .text {
+        /*text-align: center;*/
+        margin-top: 100px;
+    }
+    footer .book h2, footer .book h2 a{
+            font-size: 40px;
+    }
+    footer .mid-text {
+    margin-top: 0;
+    }
+    footer .social{
+        height: 100%;
+    align-items: center;    
+    }
+    
+    .footer-padding {
+    margin-bottom: 100px;
+    }
+    header .navbar-brand img{
+        max-width: 80%;
+            height: auto;
+    }
+    header .collapse.navbar-collapse {
+    height: 72px;
+    }
+    header .navbar-expand-lg .navbar-nav a{
+        font-size: 20px;
+    }
+    
+    header .navbar-expand-lg .navbar-nav {
+    column-gap: 30px;
+    }
+    .side-image {
+    background-size: 60px;
+    background-position: right 25%;
+    }
+    .home-sec1 {
+    background-size: 38px;
+    }
+    .inner-page-title{
+            background-size: cover;
+     background-position: center center;
+    }
+    .contact-page form{
+            padding-right: 0px;
+                margin-top: 40px;
+
+    }
+    .inner-page-title .heading h1{
+            font-size: 55px;
+    }
+    .inner-page-title{
+            padding-top: 180px;
+            padding-bottom: 100px;
+    }
+    .inner-page-title .title-image img{
+        max-width: 38%;
+            top: 20%;
+    }
+    .product-page::before, .inner-page-title::before {
+    height: 180px;
+    }
+    .about-page .text p {
+    font-size: 20px;
+    }
+    .company-name {
+    font-size: 24px;
+    }
+    .about-page .text h4 {
+    font-size: 23px;
+    }
+    .product-page {
+    padding-top: 160px;
+    }
+    .product-page .heading h1{
+            font-size: 55px;
+    }
+    .product-page .product-box .text h4 {
+    font-size: 24px;
+   min-height: 120px;
+    }
+    
+     .product-page .product-box .img-box h3 {
+    padding-left: 40px
+    }
+    .product-page .product-box .info-links .download {
+    padding: 14px 20px;
+    font-size: 16px;
+    }
+    .product-page .product-box .text {
+    padding: 40px 40px 30px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .product-page {
+    padding-top: 80px;
+    }
+    .home-banner .text {
+    margin-top: 60px;
+    }
+    .home-title-img {
+    display: block;
+    max-width: 65%;
+    float: right;
+    margin-right: -25px;
+    padding-top: 40px;
+    }
+    .home-banner{
+            flex-direction: column;
+    }
+    .home-title-img{
+    display:block;
+    }
+    .home-banner .text a {
+    font-size: 16px;
+    }
+    .home-banner .text h1 {
+    font-size: 44px;
+    line-height: 44px;
+    }
+    .home-banner .text p {
+    font-size: 18px;
+    }
+    .home-banner .text{
+        /*width: 70%;*/
+    }
+    
+    .inner-page-title .title-image{
+        text-align:right;
+        margin-bottom:50px;
+    }
+    .inner-page-title .title-image img {
+    max-width: 80%;
+    position: relative;
+    }
+    .inner-page-title {
+    padding-top: 60px;
+    }
+    .contact-page form input, .contact-page form textarea{
+            border: 2px solid #f4f4f4;
+    }
+    footer .book h2{
+        margin-bottom: 40px;
+    }
+    footer .mid-text img {
+    max-width: 60%;
+    margin-top: 15px;
+    }
+    footer .payroc .img-box img {
+    max-width: 28%;
+    }
+    footer .book h2, footer .book h2 a {
+    font-size: 35px;
+    }
+    .product-page::before, .inner-page-title::before {
+    display:none;
+    }
+    .about-page .text {
+    padding-right: 0;
+    }
+    .navbar-toggler{
+        margin-top:20px;
+    }
+    header .collapse.navbar-collapse {
+    padding-right: 0;
+        }
+    .home-banner {
+    background-size: 240%;
+    background-position: left;
+    height: auto;
+    }
+    .box-layout .img-box img {
+    border-radius: 170px;
+    max-width: 65%;
+    }
+    .side-image{
+        background-image:none;
+    }
+    .home-sec1{
+        background-image:none;
+    }
+    header{
+        display:none
+    }
+    .product-page{
+        padding-bottom: 120px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .home-title-img{
+        margin-right:0;
+        padding-top: 40px;
+    }
+    
+    .box-layout .img-box img {
+   border-radius: 150px;
+    max-width: 75%;
+    }
+    .home-banner .text h1 {
+    font-size: 42px;
+    }
+    .home-banner {
+    background-size: cover;
+    }
+    .home-banner .text {
+    width: 100%;
+    }
+    
+    .product-page .product-box .text {
+    padding: 40px 30px 30px;
+    }
+    .product-page .product-box .info-links{
+        width:100%;
+    }
+    .product-page .product-box .img-box h3 {
+    padding-left: 30px;
+    font-size: 32px;
+    }
+    footer .book h2, footer .book h2 a {
+    font-size: 25px;
+    }
+    .contact-page form input {
+    height: 65px;
+    }
+    .about-page .text p {
+    font-size: 18px;
+    margin-top: 20px;
+    }
+    .company-name {
+    font-size: 22px;
+    }
+    .about-page .text .book{
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .contact-page form input {
+    height: 60px;
+        font-size: 16px;
+    }
+    .contact-page form textarea{
+         font-size: 16px;
+    }
+    
+     .inner-page-title {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    }
+    .product-page {
+    padding-top: 60px;
+    }
+    footer .social a img {
+    max-width: 82%;
+    }
+    .footer-padding {
+    margin-bottom: 20px;
+    }
+    .box-layout .img-box img {
+    border-radius: 150px;
+    max-width: 90%;
+    }
+    .box-layout .text {
+    margin-bottom: 30px;
+    }
+    .box-layout .text h2 {
+    font-size: 34px;
+    width: 100%;
+    }
+    .home-banner .text a {
+    padding: 12px 24px;
+    }
+    .home-banner .text h1 {
+    font-size: 32px;
+    }
+    .home-title-img{
+        max-width: 85%;
+    }
+    .about-page .text h4 {
+    font-size: 20px;
+    }
+    .about-page .text .book {
+    padding: 14px 10px;
+    font-size: 17px;
+    width: 310px;
+    text-align: center;
+        margin: 10px 0 25px;
+    }
+    .about-page .text p {
+    font-size: 16px;
+    }
+    .company-name {
+        font-size: 18px;
+    }
+    .about-page .text .book{
+          padding: 14px 0px;
+    width: 290px;
+        font-size: 16px;
+    }
+    
+    .inner-page-title .heading h1 {
+    font-size: 44px;
+    }
+    .contact-page form input, .contact-page form textarea {
+    text-indent: 20px;
+    }
+    footer .book h2, footer .book h2 a {
+    font-size: 17px;
+    }
+    footer .book h2{
+        margin-top: -25px;
+    }
+    footer .book h2 {
+    margin-bottom: 30px;
+    }
+    footer .mid-text img {
+    max-width: 80%;
+    margin-top: 25px;
+    }
+    footer .payroc .img-box img {
+    max-width: 45%;
+    }
+    footer .btm-text {
+    margin-top: 40px;
+        font-size: 14px;
+    }
+    .contact-page form input[type="submit"]{
+        margin-bottom:0;
+            height: 60px;
+    width: 210px;
+    }
+    .product-page {
+    padding-top: 60px;
+    }
+    .product-page .product-box .text {
+    padding: 30px 20px 20px;
+    }
+    .product-page .product-box .info-links{
+        padding:0;
+    }
+    .product-page .product-box .info-links .more-info {
+    font-size: 16px;
+    }
+    .product-page .product-box .info-links .download {
+    padding: 14px 12px;
+    font-size: 14px;
+    }
+    .product-page .product-box .img-box h3 {
+    padding-left: 20px;
+    font-size: 26px;
+    }
+    .product-page .product-box .text h4 {
+    font-size: 20px;
+    min-height: 100px;
+    }
+    .product-page .product-box{
+        margin-top: 40px;
+    margin-right: 0;
+    }
+    .product-page .heading h1 {
+    font-size: 42px;
+    }
+    header .navbar{
+        justify-content: flex-end;
+    }
+    .navbar-toggler {
+    margin-top: -55px;
+    }
+    
+}
+

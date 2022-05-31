@@ -1,0 +1,574 @@
+@font-face {
+    font-family: "HeadlineCorp";
+    src: url("../fonts/CoHeadlineCorp.ttf")
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: "HeadlineCorp"; */
+/* font-family: 'Rubik', sans-serif; */
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    border: 0;
+    outline: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus,
+input:focus,
+textarea:focus{
+    border: 0;
+    outline: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* a, p{
+    font-size: 14px;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+.no-pad{
+    padding: 0;
+}
+
+
+
+header{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    z-index: 999;
+}
+
+header .navbar{
+    align-items: flex-start;
+    padding-left: 0;
+}
+
+header .navbar-brand img{
+    max-width: 100%;
+    width: 402px;
+    height: 89px;
+}
+
+header .collapse.navbar-collapse{        height: 92px;}
+
+header .navbar-expand-lg .navbar-nav a{
+    color: #f04e25;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;   
+    transition: .3s;
+    font-weight: 500;
+}
+
+header .navbar-expand-lg .navbar-nav a:hover{
+    color: rgb(63, 63, 63);
+}
+
+header .navbar-expand-lg .navbar-nav{
+    column-gap: 35px;
+}
+
+header .navbar-expand-lg .navbar-nav li:last-child a{
+    color: #838383;
+    font-size: 16px;
+    top: 4px;
+    left: -8px;
+    position: relative;
+}
+
+.home-banner{
+    height: 1050px;
+    background-image: url(../images/home/banner-bg.jpg);
+    background-size: 135%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.home-banner .text h1{
+    color: #f04e25;
+    font-size: 72px;
+    font-family: "HeadlineCorp";
+    line-height: 80px;
+}
+
+.home-banner .text p{
+    color: #4a4a4a;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.home-banner .text a{
+    display: inline-block;
+    margin-top: 75px;
+    background-color: #f04e25;
+    padding: 20px 55px;
+    color: #fff;
+    border-radius: 35px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.home-banner .text a:hover{
+    background-color:#1e1e1e;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.377);
+    transform: scale(1.03);
+}
+
+footer{
+    background-color: #f04e25;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+footer .book h2 , footer .book h2 a{
+    background: #c8c8c8;
+    font-size: 50px;
+    color: #f04e25;
+    font-family: "HeadlineCorp";
+    width: 100%;
+    margin: auto;
+    line-height: 2.8;
+    text-align: center;
+    border-radius: 100px 100px 0;
+    margin-top: -70px;
+    margin-bottom: 150px;
+    transition: .3s;
+}
+
+footer .book h2:hover{
+    transform: scale(1.04);
+}
+
+footer .social{
+    display: flex;
+    column-gap: 10px;
+}
+
+footer .social a img{
+    max-width: 90%;
+    transition: .3s;
+}
+
+footer .social a img:hover{
+    transform: scale(1.15);
+}
+
+footer .mid-text{
+    text-align: center;
+    margin-top: -90px;
+}
+
+footer .mid-text p{
+    font-size: 19px;
+    color: #1e1e1e;
+    font-weight: 500;
+    /* margin-top: 30px;     */
+}
+
+footer .mid-text img{
+    max-width: 90%;
+    transform: .3s;
+}
+
+
+footer .payroc .img-box{
+    text-align: right;
+    margin-top: -50px;
+}
+
+footer .payroc .img-box img{
+    max-width: 90%;
+}
+
+footer .btm-text{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+footer .btm-text a{
+    color: #fff;
+}
+.box-layout{
+    padding: 60px 0;
+}
+
+.box-layout .text h2{
+    font-size: 58px;
+    color: #f04e25;
+    margin-bottom: 40px;
+    font-family: "HeadlineCorp";
+    width: 75%;
+}
+
+.box-layout .text ul li{
+    font-size: 20px;
+    color: #4a4a4a;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+    line-height: 1.8;
+    padding-left: 32px;
+}
+
+.box-layout .text p{
+    line-height: 1.8;
+    font-size: 20px;
+    color: #4a4a4a;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.box-layout .text ul li::before{
+    content: "";
+    background-image: url(../images/check.png);
+    display: list-item;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 7px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-layout .text{
+    padding-right: 45px;
+}
+
+.box-layout .text.p-left{
+    padding-right: 0;
+    padding-left: 60px;
+}
+
+.box-layout .img-box img{
+    border-radius: 210px;
+    border: 8px solid #f3f3f3;
+    transition: .3s;
+}
+
+.box-layout:hover img{
+    border: 8px solid #f04e25;
+    transform:scale(1.03);
+    box-shadow: 0 0 15px 0px #f04e257a;
+}
+
+.home-sec1{
+    background-image: url(../images/home/sec-1-left.png);
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    background-size: auto;
+    position: relative;
+}
+
+.side-image{
+    background-image: url(../images/home/sec-1-right.png);
+    background-repeat: no-repeat;
+    background-position: right 55%;
+    background-size: 80px;
+    position: relative;
+}
+
+.home-sec1:before{
+    display: block;
+    background-image: url(../images/home/sec-1-right.png);
+    width: 100px;
+    height: 150px;
+    position: absolute;
+}
+
+.product-page{
+    padding-top: 240px;
+    background-image: url(../images/product/banner.png);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 220px;
+    margin-bottom: 0;
+}
+
+.product-page .heading h1{
+    color: #243468;
+    font-family: "HeadlineCorp";
+    font-size: 65px;
+    margin-bottom: 50px;
+
+}
+
+.product-page .product-box .img-box h3{
+    font-family: "HeadlineCorp";
+    padding-left: 60px;
+    color: #fff;
+    font-size: 40px;
+    margin-top: -140px;
+    width: 90%;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.product-page .product-box .img-box img{
+    width: 100%;
+}
+
+.product-page .product-box{
+    background-color: #e7e7e7;
+    transition: .3s;
+    border-radius: 62px;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+.product-page .product-box:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px 0 #00000091;
+    background-color: #243468;
+    color: #fff;
+}
+
+.product-page .product-box:hover .text h4,
+.product-page .product-box:hover .more-info {
+    color: #fff!important;
+}
+
+.product-page .product-box .text{
+    padding: 80px 60px 40px;
+}
+
+
+.product-page .product-box .text h4{
+    transition: .3s;
+    font-size: 30px;
+    line-height: 1.2;
+    width: 92%;
+    min-height: 140px;
+    margin-bottom: 20px;
+    color: #383838;
+}
+
+.product-page .product-box .info-links{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    align-items: center;
+    padding: 0 10px;
+    transition: .3s;
+}
+
+.product-page .product-box .info-links .more-info{
+    color: #383838;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.product-page .product-box .info-links .download{
+    color: #fff;
+    background-color: #f04e25;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 22px 60px;
+    border-radius: 50px;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.product-page .product-box .info-links .download:hover{
+    background-color: #fff;
+    border: 1px solid #f04e25;
+    color: #f04e25;
+}
+
+.product-page::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 41%;
+    background-image: url(../images/home/sec-1-left.png);
+    display: block;
+    background-size: contain;
+    width: 80px;
+    height: 440px;
+    background-repeat: no-repeat;
+}
+
+.product-page::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/footer-after.png);
+    display: block;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    z-index: -1;
+}
+
+.footer-padding{
+    margin-bottom: 150px;
+}
+
+.inner-page-title{
+    padding-top: 240px;
+    background-image: url(../images/product/banner.png);
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 140px;
+    margin-bottom: 0;
+}
+
+.inner-page-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-image: url(../images/home/sec-1-left.png);
+    display: block;
+    background-size: contain;
+    width: 80px;
+    height: 440px;
+    background-repeat: no-repeat;
+}
+
+.inner-page-title .heading h1{
+    color: #243468;
+    font-family: "HeadlineCorp";
+    font-size: 65px;
+}
+
+.about-page .text{
+    padding-right: 50px;
+}
+
+.about-page .text p{
+    color: #4a4a4a;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+.about-page .text .book{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 22px 60px;
+    border-radius: 50px;
+    transition: .3s;
+    color: #fff;
+    background-color: #f04e25;
+    display: inline-block;
+    margin: 45px 0 40px;
+}
+
+.about-page .text .book:hover{
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.575);
+    transform: scale(1.04);
+}
+
+
+.about-page .text h4{
+    font-size: 25px;
+    color: #243468;
+    font-weight: 600;
+    line-height: 1.56;
+}
+
+.inner-page-title .title-image img{
+    position: absolute;
+    right: 0;
+    top: 12%;
+    max-width: 36%;
+}
+
+.contact-page form{
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+.contact-page form input,
+.contact-page form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    text-indent: 40px;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 22px;
+    color: #717171;
+    border: 3px solid #f4f4f400;
+    transition: .3s;
+}
+header .navbar-expand-lg .navbar-nav .current-menu-item a {
+    color: #000;
+}
+.contact-page form textarea{
+    height: auto;
+    padding-top: 20px;
+}
+
+.contact-page form input[type="submit"]{
+    background-color: #f04e25;
+    height: 65px;
+    width: 250px;
+    color: #fff;
+    border-radius: 50px;
+    text-indent: 0;
+    font-weight: 600;
+    margin-top: 20px;  
+    transition: .3s; 
+    margin-bottom: 40px;
+}
+
+.contact-page form input[type="submit"]:hover{
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.contact-page form input:focus,
+.contact-page form textarea:focus{
+    border: 3px solid #f4f4f4;
+    /* box-shadow: 0 0 10px 0 rgba(180, 180, 180, 0.479); */
+}
+
+.company-name{
+    font-family: "HeadlineCorp";
+    font-size: 29px;
+    color: #f04e25;
+    font-weight: bold;
+}

@@ -1,0 +1,233 @@
+@media only screen and (min-width: 1601px){
+    .home-banner{
+        background-size: 112%;
+    }
+    .inner-page-title .title-image img{
+        top: 8%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1500px){
+    .container{
+        max-width: 1400px;
+    }
+}
+
+
+@media only screen and (max-width: 1600px){
+    .product-page::before,
+    .inner-page-title::before{
+        height: 250px;
+    }
+    .home-banner .text h1{
+        font-size: 62px;
+    }
+    .home-banner .text p{
+        font-size: 20px;
+    }
+    .home-banner .text a{
+        font-size: 18px;
+        margin-top: 40px;
+        padding: 18px 34px;
+    }
+
+    .box-layout .text ul li{
+        font-size: 16px;
+    }
+    .box-layout .text h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    footer .book h2{
+        font-size: 40px;
+    }
+    footer .mid-text p {
+        font-size: 16px;
+    }
+    .home-banner {
+        height: 990px;
+        
+    }
+    .home-sec1{
+        padding-top: 0;
+    }
+    .box-layout .text p{
+        font-size: 18px;
+    }
+    header .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 20px;
+    }
+    header .navbar-expand-lg .navbar-nav {
+        column-gap: 25px;
+    }
+    .contact-page form input{
+        height: 70px;
+    }
+    .contact-page form input, .contact-page form textarea{
+        font-size: 19px;
+    }
+    footer .mid-text img {
+        max-width: 75%;
+    }
+    footer .payroc .img-box img {
+        max-width: 40%;
+    }
+    header .collapse.navbar-collapse {
+        padding-right: 70px;
+    }
+    .home-sec1{
+        background-size: 50px;
+    }
+    image {
+        background-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .home-banner {
+        height: 800px;
+        background-size: 120%;
+    }
+    
+}
+/* @media only screen and (min-width: 1300px){
+    
+} */
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .home-banner .text h1{
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .home-banner .text a {
+        margin-top: 30px;
+        padding: 16px 24px;
+    }
+    .box-layout .img-box img{
+        border-radius: 160px;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .home-banner .text p br{
+        display: none;
+    }
+    .box-layout .text ul li {
+        font-size: 15px;
+    }
+    .box-layout .text h2 {
+        font-size: 40px;
+    }
+    footer .book h2{
+        font-size: 40px;
+        /* width: 75%; */
+        line-height: 2.7;
+        margin-top: -50px;
+        margin-bottom: 120px;
+    }
+    footer .mid-text p {
+        font-size: 14px;
+        /* margin-top: 20px; */
+    }
+    /* footer{
+        margin-top: 130px;
+    } */
+    .box-layout .text p{
+        font-size: 16px;
+    }
+    header .navbar-expand-lg .navbar-nav {
+        column-gap: 20px;
+    }
+    .box-layout {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .home-banner .text h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .home-banner {
+        height: 740px;
+        background-size: 125%;
+    }
+    .home-sec1{
+        background-size: 50px;
+    }
+    .side-image{
+        background-size: 60px;
+    }
+    .box-layout .text.p-left{
+        padding-left: 40px;
+    }
+
+    .box-layout .text {
+        padding-right: 25px;
+    }
+    footer .btm-text {
+        /* margin-top: 60px; */
+    }
+    footer .book h2{
+        margin-bottom: 90px;
+    }
+        
+}
+
+@media only screen and (max-width: 1199px){
+    .home-banner .text{
+        text-align: center;
+    }
+    .home-banner {
+        height: 640px;
+    }
+    .box-layout .text.p-left{
+        padding-left: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+    .box-layout .text{
+        margin-bottom: 60px;
+        padding-right: 0;
+    }
+    .box-layout .img-box img {
+        border-radius: 240px;
+        max-width: 80%;
+    }
+    footer .book h2{  
+        width: 100%;
+        font-size: 35px;
+        margin-bottom: 60px;
+    }
+    footer .social{
+        justify-content: center;
+    }
+    footer .mid-text {
+        /* margin: 40px 0; */
+    }
+    footer .payroc .img-box {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer .mid-text p {
+        font-size: 16px;
+    }
+
+    .home-banner {
+        background-size: 155%;
+        background-position: left 90%;
+    }
+    .home-banner .text {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
